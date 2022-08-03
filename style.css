@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Istok+Web&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&display=swap');
+
+.pirma{
+    position: relative;
+    width: auto;
+    height: auto;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.antra{
+    position: relative;
+    width: auto;
+    height: auto;
+    font-family: 'Istok Web', sans-serif;   
+}
+.trecia{
+    position: relative;
+    width: auto;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+table:nth-of-type(1) {
+    border-collapse: collapse;
+    margin: 80px auto;
+    width: 600px;
+}
+table:nth-of-type(2) {
+    border-collapse: collapse;
+    margin: 80px auto;
+    width: 600px;
+    color: white;
+}
+table:nth-of-type(3) {
+    border-collapse: collapse;
+    margin: 80px auto;
+    width: 500px;
+}
+table:nth-of-type(1) td, th{
+    border: 1px solid #fec107;
+    padding: 15px;
+}
+
+table:nth-of-type(3) {
+    border-collapse: collapse;
+    margin: 70px auto;}
+
+table:nth-of-type(2) td, th {
+    border: 2px solid white;
+    padding: 10px;
+    text-align: center;
+    text-align: left;
+    width: 125px;
+}
+table:nth-of-type(3) td, th{
+    padding: 10px;
+    text-align: left;
+    width: 170px;
+    height: 5px;
+    font-weight: 80px;
+    border: 2px solid black;
+    font-family: 'Inconsolata', monospace;
+    font-size: 20px;
+}
+table:nth-of-type(1) th{
+    background: #f7bf18;
+    text-align: center;
+    border: 1px solid #fec107;
+}
+table:nth-of-type(1) td{
+color: white;
+text-align: left;
+}
+table:nth-of-type(2) th{
+    background: #86006f;
+    font-family: 'Inconsolata', monospace;
+    font-size: 20px;
+    border: 3px solid white;
+}
+table:nth-child(even) {
+    background-color:  #f37ecf;
+}
+table:nth-of-type(1) {
+    background: #382c6e;
+}
+table:nth-of-type(3) {
+    background: white;
+}
+table:nth-of-type(1) .pavarde{
+    background: #e5ae2f;
+}
+.antra tr:nth-child(odd) {background-color: #af5593;}
+.oranzine{
+    background: #fea500;
+    color: white;
+}
+.melyna{
+    background: #4f4fff;   
+    color: white;
+
+}
+.zalia{
+    background: #16c03b;
+    color: white;
+}
+
+
+ul{
+    list-style: none;
+}
+li{
+    padding: 15px;
+    margin: 25px;
+}
+
+li:nth-of-type(odd){
+    background: #2cd64d;
+    max-width: 2px;
+    max-height: 2px;
+    border: 20px solid #F05712; 
+    outline: 5px solid #2cd64d;    
+    margin: 25px;
+}
+li:nth-of-type(even){
+    background: #F05712;
+    max-width: 2px;
+    max-height: 2px;
+    border: 20px solid #2cd64d; 
+    outline: 5px solid #F05712;
+    margin: 25px;
+}
+li div ul li:nth-of-type(odd){
+    background: #F05712;
+    max-width: 2px;
+    max-height: 2px;
+    border: 20px solid #2cd64d; 
+    outline: 5px solid #F05712;
+    margin-top: 15%;
+}
+li div ul li:nth-of-type(even){
+    background: #2cd64d;
+    max-width: 2px;
+    max-height: 2px;
+    border: 20px solid #F05712; 
+    outline: 5px solid #2cd64d;
+    margin: 25px;
+
+}
+li li div ul li:nth-of-type(odd){
+    background: #2cd64d;
+    max-width: 2px;
+    max-height: 2px;
+    border: 20px solid #F05712; 
+    outline: 5px solid #2cd64d;
+    margin: 25px;
+}
+li li div ul li:nth-of-type(even){
+    background: #F05712;
+    max-width: 2px;
+    max-height: 2px;
+    border: 20px solid #2cd64d; 
+    outline: 5px solid #F05712;
+    margin: 25px;
+}
+li li li div ul li:nth-of-type(odd){
+    background: #F05712;
+    max-width: 2px;
+    max-height: 2px;
+    border: 20px solid #2cd64d; 
+    outline: 5px solid #F05712;
+    margin: 25px;
+    
+}
+li li li div ul li:nth-of-type(even){
+    background: #2cd64d;
+    max-width: 2px;
+    max-height: 2px;
+    border: 20px solid #F05712; 
+    outline: 5px solid #2cd64d;
+    margin: 25px;
+}
+li li li li div ul li:nth-of-type(odd){
+    background: #2cd64d;
+    max-width: 2px;
+    max-height: 2px;
+    border: 20px solid #F05712; 
+    outline: 5px solid #2cd64d;
+    margin: 25px;
+}
+li li li li div ul li:nth-of-type(even){
+    background: #F05712;
+    max-width: 2px;
+    max-height: 2px;
+    border: 20px solid #2cd64d; 
+    outline: 5px solid #F05712;
+    margin-top: 35px;
+    margin: 25px;
+}
+li li li li li  div ul li:nth-of-type(odd){
+    background: #F05712;
+    max-width: 2px;
+    max-height: 2px;
+    border: 20px solid #2cd64d; 
+    outline: 5px solid #F05712;
+    margin: 25px;
+}
+li li li li li div ul li:nth-of-type(even){
+    background: #2cd64d;
+    max-width: 2px;
+    max-height: 2px;
+    border: 20px solid #F05712; 
+    outline: 5px solid #2cd64d;
+    margin: 25px;
+}
+li li li li li li  div ul li:nth-of-type(odd){
+    background: #2cd64d;
+    max-width: 2px;
+    max-height: 2px;
+    border: 20px solid #F05712; 
+    outline: 5px solid #2cd64d;
+    margin: 25px;
+}
+li li li li li li div ul li:nth-of-type(even){
+    background: #F05712;
+    max-width: 2px;
+    max-height: 2px;
+    border: 20px solid #2cd64d; 
+    outline: 5px solid #F05712;
+    margin: 25px;
+
+}
